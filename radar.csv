@@ -1,0 +1,5 @@
+﻿name,ring,quadrant,isNew,description
+Cypress,ring 1,Product,TRUE,<p>This is the description</p>
+Another one,ring 2,Culture,TRUE,<p>This is the description</p>
+Prophet,ring 3,Engineering,TRUE,<p>This is the description</p>
+Apollo,ring 1,Something Else,TRUE,<p>This is the description</p>
