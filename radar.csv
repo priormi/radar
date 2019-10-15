@@ -1,7 +1,7 @@
 ﻿name,ring,quadrant,isNew,description
 ,Ring 1,Engineering,FALSE,
-Version control for all production artifacts,Ring 2,Engineering,FALSE,<p>This is the description</p>
-Automate deployment process,Ring 2,Engineering,FALSE,
+Version control for all production artifacts,Ring 2,Engineering,FALSE,"Version control is the use of a version control system, such as GitHub or Subversion, for all production artifacts, including application code, application configurations, system configurations, and scripts for automating build and configuration of the environment"
+Automate deployment process,Ring 2,Engineering,FALSE,<p>This is the description</p>
 Implement Continuous Integration,Ring 2,Engineering,FALSE,
 Trunk-based development,Ring 2,Engineering,FALSE,
 Test Automation,Ring 2,Engineering,FALSE,
