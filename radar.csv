@@ -1,8 +1,8 @@
 ﻿name,ring,quadrant,isNew,description
-Version control for all production artifacts,Rign 1,Engineering,TRUE,<p>This is the description</p>
-Automate deployment process,Rign 1,Engineering,TRUE,
-Implement Continuous Integration,Rign 1,Engineering,TRUE,
-Trunk-based development,Rign 1,Engineering,TRUE,
+Version control for all production artifacts,Ring 1,Engineering,TRUE,<p>This is the description</p>
+Automate deployment process,Ring 2,Engineering,TRUE,
+Implement Continuous Integration,Ring 1,Engineering,TRUE,
+Trunk-based development,Ring 1,Engineering,TRUE,
 Test Automation,Ring 2,Engineering,TRUE,
 Test data management,Ring 2,Engineering,TRUE,
 Shift left on security,Ring 2,Engineering,TRUE,
@@ -24,4 +24,3 @@ Support and facilitate collaboratoin among teams,Ring 2,Culture,TRUE,
 Provide tools and resources that make work more meaningful,Ring 2,Culture,TRUE,
 Support or embody transformational leadership,Ring 3,Culture,TRUE,
 Responsibility Process,Ring 4,Culture,TRUE,
-,,,,
