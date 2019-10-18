@@ -1,4 +1,6 @@
 ﻿name,ring,quadrant,isNew,description
+Work in Process limites,Concepts,Lean,FALSE,
+Improvement Kata,Techniques,Lean,FALSE,
 Version control for all production artifacts,Capability,Engineering,FALSE,"The comprehensive use of version control is relatively uncontroversial. We asked if respondents were keeping application code, system configuration, application configuration, and scripts for automating build and configuration in version control. These factors together predict IT performance and form a key component of continuous delivery. What was most interesting was that keeping system and application configuration in version control was more highly correlated with software delivery performance than keeping application code in version control. Configuration is normally considered a secondary concern to application code in configuration management, but research shows that this is a misconception."
 Automate deployment process,Capability,Engineering,FALSE,"A deployment pipeline is, in essence, an automated implementation of your application’s build, deploy, test and release process."
 Implement Continuous Integration,Capability,Engineering,FALSE,"Continuous integration (CI) is the first step towards continuous delivery. This is a development practice where code is regularly checked in, and each check-in triggers a set of quick tests to discover serious regressions, which developers fix immediately. The CI process creates canonical builds and packages that are ultimately deployed and released."
@@ -58,10 +60,8 @@ Test-Driven Development,Techniques,Engineering,FALSE,
 Behavior-Driven Development,Techniques,Product,FALSE,
 Pair Programming,Techniques,Engineering,FALSE,
 Westrum Topology,Concepts,Culture,FALSE,
-Improvement Kata,Techniques,Lean,FALSE,
 A3,Techniques,Lean,FALSE,
 Dealing with unplanned work,Concepts,Lean,FALSE,
-Work in Process limites,Concepts,Lean,FALSE,
 Treating SEV 1's as a blessing,Concepts,Culture,FALSE,
 7 Wastes of Lean Software Development,Concepts,Lean,FALSE,
 7 Principles of Lean,Concepts,Lean,FALSE,
