@@ -1,4 +1,5 @@
 ﻿name,ring,quadrant,isNew,description
+Outcomes over Outputs,Concepts,Product,FALSE,"<a href=""https://vimeo.com/206617354"">Jeff Patton video on Outputs vs Outcomes vs Impacts</a>"
 Work in Process limits,Techniques,Lean,FALSE,
 Improvement Kata,Techniques,Lean,FALSE,
 Version control for all production artifacts,Capability,Craftsmanship,FALSE,"The comprehensive use of version control is relatively uncontroversial. We asked if respondents were keeping application code, system configuration, application configuration, and scripts for automating build and configuration in version control. These factors together predict IT performance and form a key component of continuous delivery. What was most interesting was that keeping system and application configuration in version control was more highly correlated with software delivery performance than keeping application code in version control. Configuration is normally considered a secondary concern to application code in configuration management, but research shows that this is a misconception."
@@ -28,7 +29,6 @@ Support and facilitate collaboration among teams,Capability,Culture,FALSE,
 Provide tools and resources that make work more meaningful,Capability,Culture,FALSE,"This particular measure of job satisfaction is about doing work that is challenging and meaningful, and being empowered to exercise your skills and judgment. It is also about being given the tools and resources needed to do your job well."
 Support or embody transformational leadership,Capability,Culture,FALSE,"Transformational leadership supports and amplifies the technical and process work that is so essential in DevOps. It is comprised of five factors: vision, intellectual stimulation, inspirational communication, supportive leadership, and personal recognition."
 Responsibility Process,Capability,Culture,FALSE,
-Outcomes over Outputs,Concepts,Product,FALSE,"<a href=""https://vimeo.com/206617354"">Jeff Patton video on Outputs vs Outcomes vs Impacts</a>"
 OKR,Techniques,Product,FALSE,"The definition of “OKRs” is “Objectives and Key Results.” It is a collaborative goal-setting tool used by teams and individuals to set challenging, ambitious goals with measurable results. OKRs are how you track progress.
 
 An Objective is simply what is to be achieved, no more and no less. By definition, objectives are significant, concrete, action-oriented, and (ideally) inspirational. When properly designed and deployed, they’re a vaccine against fuzzy thinking—and fuzzy execution.
