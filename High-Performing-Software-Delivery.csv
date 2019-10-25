@@ -1,0 +1,78 @@
+﻿name,ring,quadrant,isNew,description
+Work in Process limits,Concepts,Lean,FALSE,
+Improvement Kata,Techniques,Lean,FALSE,
+Version control for all production artifacts,Capability,Engineering,FALSE,"The comprehensive use of version control is relatively uncontroversial. We asked if respondents were keeping application code, system configuration, application configuration, and scripts for automating build and configuration in version control. These factors together predict IT performance and form a key component of continuous delivery. What was most interesting was that keeping system and application configuration in version control was more highly correlated with software delivery performance than keeping application code in version control. Configuration is normally considered a secondary concern to application code in configuration management, but research shows that this is a misconception."
+Automate deployment process,Capability,Engineering,FALSE,"A deployment pipeline is, in essence, an automated implementation of your application’s build, deploy, test and release process."
+Implement Continuous Integration,Capability,Engineering,FALSE,"Continuous integration (CI) is the first step towards continuous delivery. This is a development practice where code is regularly checked in, and each check-in triggers a set of quick tests to discover serious regressions, which developers fix immediately. The CI process creates canonical builds and packages that are ultimately deployed and released."
+Trunk-based development,Capability,Engineering,FALSE,"Trunk-based development has been shown to be a predictor of high performance in software development and delivery. It is characterized by fewer than three active branches in a code repository; branches and forks having very short lifetimes (e.g., less than a day) before being merged into master; and application teams rarely or never having “code lock” periods when no one can check in code or do pull requests due to merging conflicts, code freezes, or stabilization phases."
+Test Automation,Capability,Engineering,FALSE,"Having automated tests that are reliable: when the automated tests pass, teams are confident that their software is releasable. Furthermore, they are confident that test failures indicate a real defect. Too many test suites are flaky and unreliable, producing false positives and negatives—it’s worth investing ongoing effort into a suite that is reliable.  
+Developers primarily create and maintain acceptance tests, and they can easily reproduce and fix them on their development workstations. It’s interesting to note that having automated tests primarily created and maintained either by QA or an outsourced party is not correlated with IT performance. The theory behind this is that when developers are involved in creating and maintaining acceptance tests, there are two important effects. First, the code becomes more testable when developers write tests. This is one of the main reasons why test-driven development (TDD) is an important practice—it forces developers to create more testable designs. Second, when developers are responsible for the automated tests, they care more about them and will invest more effort into maintaining and fixing them."
+Test data management,Capability,Engineering,FALSE,"Test data requires careful maintenance, and test data management is becoming an increasingly important part of automated testing. Effective practices include having adequate data to run your test suite, the ability to acquire necessary data on demand, the ability to condition your test data in your pipeline, and the data not limiting the amount of tests you can run. We do caution, however, that teams should minimize, whenever possible, the amount of test data needed to run automated tests."
+Shift left on security,Capability,Engineering,FALSE,"Integrating security into the design and testing phases of the software development process is key to driving IT performance. This includes conducting security reviews of applications, including the infosec team in the design and demo process for applications, using preapproved security libraries and packages, and testing security features as a part of the automated testing suite."
+Implement Continuous Delivery,Capability,Engineering,FALSE,"CD is a development practice where software is in a deployable state throughout its lifecycle, and the team prioritizes keeping the software in a deployable state over working on new features. Fast feedback on the quality and deployability of the system is available to all team members, and when they get reports that the system isn’t deployable, fixes are made quickly. Finally, the system can be deployed to production or end users at any time, on demand. "
+Loosely coupled,Capability,Engineering,FALSE,"This affects the extent to which a team can test and deploy their applications on demand, without requiring orchestration with other services. Having a loosely coupled architecture allows your teams to work independently, without relying on other teams for support and services, which in turn enables them to work quickly and deliver value to the organization.
+If we achieve a loosely coupled, well-encapsulated architecture with an organizational structure to match, two important things happen. First, we can achieve better delivery performance, increasing both tempo and stability while reducing the burnout and the pain of deployment. Second, we can substantially grow the size of our engineering organization and increase productivity linearly—or better than linearly—as we do so."
+Empowered teams choose the right tool for the job,Capability,Engineering,FALSE,
+Gather and implement customer feedback,Capability,Product,FALSE,
+Make flow of work visible throughout the value stream,Capability,Lean,FALSE,"Teams should have a good understanding of and visibility into the flow of work from the business all the way through to customers, including the status of products and features."
+"work in small batches but avoid ""work break down""",Capability,Lean,FALSE,"Teams should slice work into small pieces that can be completed in a week or less. The key is to have work decomposed into small features that allow for rapid development, instead of developing complex features on branches and releasing them infrequently. This idea can be applied at the feature and the product level. (An MVP is a prototype of a product with just enough features to enable validated learning about the product and its business model.) Working in small batches enables short lead times and faster feedback loops."
+Foster and enable team experimentation,Capability,Product,FALSE,"Team experimentation is the ability of developers to try out new ideas and create and update specifications during the development process, without requiring approval from outside of the team, which allows them to innovate quickly and create value. This is particularly impactful when combined with working in small batches, incorporating customer feedback, and making the flow of work visible."
+Lighweight change approval process,Capability,Lean,FALSE,
+Monitor across app/nfra to inform business decisions,Capability,Engineering,FALSE,Use data from application and infrastructure monitoring tools to take action and make business decisions. This goes beyond paging people when things go wrong.
+Check system health proactively,Capability,Engineering,FALSE,"Monitor system health, using threshold and rate-of-change warnings, to enable teams to preemptively detect and mitigate problems."
+Improve process and manage work with WIP limits,Capability,Lean,FALSE,"The use of work-in-process limits to manage the flow of work is well known in the Lean community. When used effectively, this drives process improvement, increases throughput, and makes constraints visible in the system."
+Visualize work to monitor quality and communicatio throughout team,Capability,Lean,FALSE,"Visual displays, such as dashboards or internal websites, used to monitor quality and work in process have been shown to contribute to software delivery performance."
+Support a generative culture,Capability,Culture,FALSE,"This measure of organizational culture is based on a typology developed by Ron Westrum, a sociologist who studied safety-critical complex systems in the domains of aviation and healthcare. Our research has found that this measure of culture is predictive of IT performance, organizational performance, and decreasing burnout. Hallmarks of this measure include good information flow, high cooperation and trust, bridging between teams, and conscious inquiry."
+Encourage and support learning,Capability,Culture,FALSE,
+Support and facilitate collaboratoin among teams,Capability,Culture,FALSE,
+Provide tools and resources that make work more meaningful,Capability,Culture,FALSE,"This particular measure of job satisfaction is about doing work that is challenging and meaningful, and being empowered to exercise your skills and judgment. It is also about being given the tools and resources needed to do your job well."
+Support or embody transformational leadership,Capability,Culture,FALSE,"Transformational leadership supports and amplifies the technical and process work that is so essential in DevOps. It is comprised of five factors: vision, intellectual stimulation, inspirational communication, supportive leadership, and personal recognition."
+Responsibility Process,Capability,Culture,FALSE,
+Outcomes over Outputs,Concepts,Product,FALSE,"<a href=""https://vimeo.com/206617354"">Jeff Patton video on Outputs vs Outcomes vs Impacts</a>"
+OKR,Techniques,Product,FALSE,"The definition of “OKRs” is “Objectives and Key Results.” It is a collaborative goal-setting tool used by teams and individuals to set challenging, ambitious goals with measurable results. OKRs are how you track progress.
+
+An Objective is simply what is to be achieved, no more and no less. By definition, objectives are significant, concrete, action-oriented, and (ideally) inspirational. When properly designed and deployed, they’re a vaccine against fuzzy thinking—and fuzzy execution.
+
+Key Results benchmark and monitor how we get to the objective. Effective KRs are specific and time-bound, aggressive yet realistic. Most of all, they are measurable and verifiable. You either meet a key result’s requirements or you don’t; there is no gray area, no room for doubt. At the end of the designated period, typically a quarter, we do a regular check and grade the key results as fulfilled or not.
+
+Where an objective can be long-lived, rolled over for a year or longer, key results evolve as the work progresses. Once they are all completed, the objective is necessarily achieved."
+Dual Track Agile,Concepts,Product,FALSE,
+Story Mapping,Techniques,Product,FALSE,"A narrative is more powerful than the written form.  Applying user stories can be a powerful approach for creating a shared understanding and gaining customer empathy.
+
+But user stories aren’t just a pile of things to do.  There’s an underlying structure that helps you see the big picture from the customer’s point of view.
+
+By organizing the story cards into a map, we can better understand the customer journey and identify small slices of value to deliver.
+
+User Story Maps are an arrangement in which story cards from left to right follows people’s interaction with the system and top to bottom to decompose that interaction.
+
+User story maps are a metaphor for a customer journey.  That means you’re taking people somewhere instead of just getting things done."
+Opportunity Canvas,Techniques,Product,FALSE,"Agile Opportunity Canvas also referred to as Agile Project Charter is used to ensure whether the business value is captured in the right format, which gives visibility to higher management and decision makers to ensure the investment is made to the right effort.
+ 
+An opportunity canvas is similar to a lean business case. It will help us capture the essential fields.
+ 
+Drafted opportunity canvas will move through the approval process before any project work is initiated."
+Jobs To be Done,Concepts,Product,FALSE,
+Customer Journey Map,Techniques,Product,FALSE,A customer journey map is a visual representation of every experience your customers have with you. It helps to tell the story of a customer's experience with your brand from original engagement and into hopefully a long-term relationship.
+Value Proposition Canvas,Techniques,Product,FALSE,
+Value Stream Mapping,Techniques,Lean,FALSE,Value stream mapping helps determine what is valuable and what doesn’t bring value by identifying activities that matter to your customer. The ultimate benefit of using VSM is a better understanding of how to improve your current development process to generate more value and impact.
+Test-Driven Development,Techniques,Engineering,FALSE,"Test-Driven Development (TDD) is a technique for building software that guides software development by writing tests. It was developed by Kent Beck in the late 1990's as part of Extreme Programming. In essence you follow three simple steps repeatedly:
+
+ - Write a test for the next bit of functionality you want to add.
+ - Write the functional code until the test passes.
+ - Refactor both new and old code to make it well structured."
+Behavior-Driven Development,Techniques,Product,FALSE,"When business stakeholders to provide realistic scenarios for how the software will be used and those examples are used to determine the scope of the project. This approach has two major benefits -- it encourages communication between the business owners of a project and the software development team and it helps the developers align software specifications with user acceptance testing (UAT). When done right, the specifications can be validated through automated software tests that run frequently.
+Specification by example is also known as example-driven development, executable requirements, acceptance test–driven development (ATDD), or behavior-driven-development (BDD)."
+Pair Programming,Techniques,Engineering,FALSE,
+Westrum Topology,Concepts,Culture,FALSE,
+A3,Techniques,Lean,FALSE,
+Dealing with unplanned work,Concepts,Lean,FALSE,
+Treating SEV 1's as a blessing,Concepts,Culture,FALSE,
+7 Wastes of Lean Software Development,Concepts,Lean,FALSE,
+7 Principles of Lean,Concepts,Lean,FALSE,
+Systems Thinking,Concepts,Lean,FALSE,
+The 3 Ways,Concepts,Engineering,FALSE,
+5 Values of Extreme Programming,Concepts,Engineering,FALSE,"1. Communication - Everyone on a team works jointly at every stage of the project.
+2. Simplicity - Developers strive to write simple code bringing more value to a product, as it saves time and efforts.
+3. Feedback - Team members deliver software frequently, get feedback about it, and improve a product according to the new requirements.
+4. Respect - Every person assigned to a project contributes to a common goal.
+5. Courage - Programmers objectively evaluate their own results without making excuses and are always read to respond to changes."
